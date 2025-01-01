@@ -1,0 +1,55 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    overflow: hidden; /* Ngăn kéo dài */
+}
+
+.container {
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px; 
+    margin-bottom: 20px; 
+}
+
+.options {
+    display: flex;
+    justify-content: space-between; 
+    width: 200px; 
+    margin: 0 auto; 
+}
+
+.btn {
+    flex: 1;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    background-color: yellow; 
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s, font-size 0.3s;
+}
+
+.btn:hover {
+    background-color: blue;
+}
+h1 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+p {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    font-size: 30px;
+}
